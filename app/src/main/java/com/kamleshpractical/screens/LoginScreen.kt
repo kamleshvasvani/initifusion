@@ -40,8 +40,8 @@ import com.kamleshpractical.viewmodel.AuthViewModel
 
 @Composable
 fun LoginScreen(viewModel: AuthViewModel, onLoginSuccess: () -> Unit) {
-    var email by remember { mutableStateOf("kamlesh.vasvani145@gmail.com") }
-    var password by remember { mutableStateOf("@123kamu") }
+    var email by remember { mutableStateOf("") }
+    var password by remember { mutableStateOf("") }
     val state by viewModel.authState.collectAsState()
     val errorMessage by viewModel.errorMessage.collectAsState()
 

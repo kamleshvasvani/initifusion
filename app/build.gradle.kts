@@ -70,13 +70,13 @@ dependencies {
 
 
     // Hilt
-    implementation (libs.hilt.android)
-    kapt (libs.hilt.compiler)
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.compiler)
 
 // Lifecycle + Coroutines + Flow
-    implementation (libs.androidx.lifecycle.viewmodel.ktx)
-    implementation (libs.androidx.lifecycle.runtime.ktx.v270)
-    implementation (libs.kotlinx.coroutines.android)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.runtime.ktx.v270)
+    implementation(libs.kotlinx.coroutines.android)
 
 
     // Room
@@ -84,7 +84,6 @@ dependencies {
     kapt("androidx.room:room-compiler:2.7.2")
     implementation("androidx.room:room-ktx:2.7.2")
 
-
-
+    implementation("androidx.biometric:biometric:1.2.0-alpha05")
 
 }
