@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "462895861781",
+    "project_id": "preactical-ad918",
+    "storage_bucket": "preactical-ad918.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462895861781:android:3c302db84bd81b9fff7e1c",
+        "android_client_info": {
+          "package_name": "com.kamleshpractical"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnDJRsyupn-rTB71RuHKtb1UXa-vP6ZAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
